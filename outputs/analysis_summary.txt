@@ -1,0 +1,23 @@
+ME5311 Project 1 — Quantitative Summary (Q1–Q4)
+============================================================
+Frames used for POD: 3000 (stride=5)
+Frames used for spectra: 3000 (stride=5)
+
+[Q1] POD dominant structures
+  Modes for 90% energy: r90 = 12
+  Modes for 95% energy: r95 = 32
+  Relative reconstruction error (modes 1–4): 0.2832
+
+[Q2/Q3] Spatial scales and forced periodic signature
+  2D peak wavenumber magnitude |k*|: 0.0625
+  Characteristic wavelength λ* = 1/|k*|: 16
+  Segment-mean isotropic-peak k: 0.0110485
+  Segment peak std: 0
+  Segment peak CoV: 0.0000
+
+[Q4] Spatio-temporal anisotropy and temporal scales
+  Anisotropy ratio Ex/Ey (axis cuts): 5.79983
+  Dominant frequency of POD mode 1: 0.000666667
+  Dominant frequency of POD mode 2: 0.00266667
+  Dominant frequency of POD mode 3: 0.000333333
+  Dominant frequency of POD mode 4: 0.00266667

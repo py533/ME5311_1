@@ -1,0 +1,7 @@
+This folder contains the data file required to run the analysis.
+
+Required file:
+  vector_64.npy   — velocity vector field data, shape (nt, 64, 64, 2)
+
+The data file is not included in this submission.
+Place vector_64.npy in this directory before running main.py.
