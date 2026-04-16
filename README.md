@@ -1,6 +1,10 @@
-# ME5311 Project 1 Analysis
+# ME5311 Project 1 
 
-A compact Python workflow for POD-based flow analysis, spectral analysis, and figure/table export.
+This project is a compact Python workflow for vector-field analysis, covering POD, spatial spectrum analysis, temporal PSD analysis, and publication-style figure export. I built an end-to-end and reproducible pipeline from raw snapshots to final outputs, including data loading with validation and subsampling, mean/fluctuation decomposition, POD via SVD, low-order reconstruction checks, isotropic and 2D spectral analysis, dominant-frequency extraction, anisotropy quantification, and automatic export of key metrics.
+
+The main results show that dominant structures are captured efficiently by POD, with 90% and 95% cumulative energy reached at modes 12 and 32, and a 4-mode reconstruction relative error of 0.2832. The spatial spectrum indicates a clear dominant scale at |k*| = 0.0625 with characteristic wavelength 16, segment-based spectral peaks remain stable, anisotropy is pronounced with Ex/Ey = 5.79983, and leading modal dynamics are concentrated in low frequencies around 3.33e-4 to 2.67e-3.
+
+![Summary Figure](outputs/q1_q4_summary_B.png)
 
 ## Project Files
 - `main.py`: full analysis pipeline entry point
