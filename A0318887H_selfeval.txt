@@ -1,8 +1,0 @@
-Criteria 1 (90):
-The methodology is clearly structured around four guiding questions. POD via SVD is used to extract dominant spatial structures, with energy fractions and reconstruction error providing quantitative validation. Spectral analysis employs 2D FFT and radially averaged isotropic spectra to characterize spatial scales. A peak-to-background ratio test is used to diagnose periodic forcing. Directional axis cuts and integral ratios quantify anisotropy. Each tool is chosen with clear justification and applied consistently throughout the analysis.
-
-Criteria 2 (95):
-Course concepts including POD decomposition, snapshot matrix construction, energy spectra, and wavenumber-based scale analysis are all correctly implemented. The link between singular values and modal energy is properly defined. The isotropic spectrum is derived by radial averaging of the 2D spectrum, consistent with course methodology. Temporal PSD of POD coefficients is used to extract characteristic frequencies. The analysis demonstrates a coherent understanding of data-driven flow decomposition as taught in the course.
-
-Criteria 3 (98):
-The report is organized to follow the four questions sequentially, each supported by a dedicated panel in the consolidated figure. Mathematical notation is used consistently for wavenumbers, energy fractions, and anisotropy ratios. Conclusions are linked directly to quantitative metrics and figure panels, keeping the evidence chain traceable. The single multi-panel figure reduces cross-referencing effort. Some spectral estimation details such as binning resolution could be stated more explicitly to improve reproducibility within the word limit.
